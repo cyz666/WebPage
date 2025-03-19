@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按钮跳转示例</title>
+    <style>
+        /* 按钮样式 */
+        .custom-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #000; /* 文字颜色 */
+            background-color: transparent; /* 背景透明 */
+            border: 2px solid blue; /* 边框颜色蓝色 */
+            border-radius: 5px; /* 圆角 */
+            text-decoration: none; /* 去掉文字下划线 */
+            text-align: center; /* 文字居中 */
+            box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3); /* 边框阴影效果 */
+            transition: all 0.3s ease; /* 优雅过渡效果 */
+        }
+
+        /* 鼠标悬停时的效果 */
+        .custom-button:hover {
+            border-color: purple; /* 改变边框颜色为紫色 */
+            color: purple; /* 文字颜色也变为紫色 */
+            box-shadow: 0 4px 8px rgba(128, 0, 128, 0.3); /* 改变阴影颜色为紫色 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 按钮，将href指向baidu.com -->
+    <a href="https://www.baidu.com" target="_blank" class="custom-button">跳转到百度</a>
+</body>
+</html>
